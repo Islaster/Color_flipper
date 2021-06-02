@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: Red;
+}
+h1{
+  border: 1px solid;
+  border-color: black;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  text-align:justify;
+  margin-bottom: .6em;
+  font-size: 2.6em;
+}
+.center {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+button {
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 1em 1.3em;
+  margin-left: 33%;
+}
+.color-name {
+  display: inline;
+  text-transform: capitalize;
+  color: red;
+}
